@@ -86,7 +86,7 @@ declare module "ulog" {
       disable(): void
   }
 
-  declare const ulog: ULog
+  const ulog: ULog;
 
   export = ulog;
 }
